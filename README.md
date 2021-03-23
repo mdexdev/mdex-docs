@@ -4,10 +4,11 @@
 
    
 
-   **URL**：https://api.mdex.com/mdex/pairs
+   **URL**：https://gateway.mdex.cc/v2/mdex/pairs
 
    **Params**：-
-
+   mdex_chainid : 当前链ID，Heco: 128(默认), Bsc: 56, Eth: 1
+   
    **Reponse data**：
 
    ```
@@ -55,10 +56,11 @@
 
 2. **Obtain single currency price quotation list information:**
 
-   **URL**：https://api.mdex.com/mdex/tokens
+   **URL**：https://gateway.mdex.cc/v2/mdex/tokens
 
    **Params**：-
-
+   mdex_chainid : 当前链ID，Heco: 128(默认), Bsc: 56, Eth: 1
+   
    **Reponse data**：
 
    ```
